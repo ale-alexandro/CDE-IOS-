@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAa-EI-axp">
+                                <rect key="frame" x="67" y="144" width="186" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ъ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bvx-mn-7dV">
+                                        <rect key="frame" x="28" y="48.5" width="130" height="203"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="170"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Не тверди!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zq-xH-5Dg">
+                                        <rect key="frame" x="42.5" y="227.5" width="101" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0zq-xH-5Dg" firstAttribute="centerX" secondItem="Bvx-mn-7dV" secondAttribute="centerX" id="QzG-A8-SIH"/>
+                                    <constraint firstItem="Bvx-mn-7dV" firstAttribute="centerX" secondItem="bAa-EI-axp" secondAttribute="centerX" id="b3X-u3-zJe"/>
+                                    <constraint firstItem="0zq-xH-5Dg" firstAttribute="bottom" secondItem="Bvx-mn-7dV" secondAttribute="bottom" id="btl-Bp-uOa"/>
+                                    <constraint firstItem="Bvx-mn-7dV" firstAttribute="centerY" secondItem="bAa-EI-axp" secondAttribute="centerY" id="y57-Q3-pr7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bAa-EI-axp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="NuW-49-YFP"/>
+                            <constraint firstItem="bAa-EI-axp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cxl-L0-nQV"/>
+                            <constraint firstItem="bAa-EI-axp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iaY-uO-fe1"/>
+                            <constraint firstItem="bAa-EI-axp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="jRh-Mo-LJi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>
